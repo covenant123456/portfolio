@@ -4,14 +4,14 @@ import icons from "../constant/icons";
 function Experiences() {
   return (
     <>
-      <div className="bg-black pt-12 text-white flex flex-col justify-center items-center w-full h-full">
+      <div className="bg-black pt-12 text-white flex flex-col justify-center items-center w-full h-full ">
         <div className="text-4xl">
           My <span className="text-4xl font-bold">Experience</span>
         </div>
 
-        {/* Responsive Container */}
-        <div className="flex flex-col space-y-8 pt-12 pb-24 px-4 w-full">
-          {/* Google Experience */}
+       
+        <div className="flex flex-col space-y-8 pt-12 pb-24 px-4 w-full ">
+  
           <div className="flex flex-col space-y-4 w-full h-full border border-white rounded-lg p-6 text-white">
             <div className="flex flex-col md:flex-row md:justify-between md:items-center space-y-2 md:space-y-0">
               <div className="flex items-center space-x-4">
@@ -29,7 +29,7 @@ function Experiences() {
             </div>
           </div>
 
-          {/* YouTube Experience */}
+         
           <div className="flex flex-col space-y-4 w-full h-full bg-zinc-500 rounded-lg p-6 text-white">
             <div className="flex flex-col md:flex-row md:justify-between md:items-center space-y-2 md:space-y-0">
               <div className="flex items-center space-x-4">
@@ -48,7 +48,7 @@ function Experiences() {
             </div>
           </div>
 
-          {/* Apple Experience */}
+         
           <div className="flex flex-col space-y-4 w-full h-full border border-white rounded-lg p-6 text-white">
             <div className="flex flex-col md:flex-row md:justify-between md:items-center space-y-2 md:space-y-0">
               <div className="flex items-center space-x-4">

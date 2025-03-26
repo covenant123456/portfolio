@@ -4,7 +4,7 @@ import images from "../constant/images";
 function About() {
   return (
     <>
-      <div className="container mx-auto flex flex-col mt-12 md:flex-row justify-around items-center p-4 bg-white text-black">
+      <div className="container mx-auto flex flex-col mt-12 md:flex-row justify-around items-center p-4 pb-12 bg-white text-black">
         <div className="flex flex-col justify-center items-center w-full h-full md:items-center md:justify-center">
           <img
             src={images.aboutMe}
@@ -21,7 +21,7 @@ function About() {
             </div>
             <p className="text-black pt-4">
              I'm Covenant Ekundayo, a <span className="font-bold">UI/UX Designer</span> and
-            <span className="font-bold">Mobile App Developer</span> passionate about creating seamless digital
+            <span className="font-bold"> Mobile App Developer</span> passionate about creating seamless digital
               experiences. With a strong foundation in <span className="font-bold">React Native, Laravel,
               and Next.js</span>, I specialize in designing and developing intuitive
               web and mobile applications. I have worked on diverse projects,
