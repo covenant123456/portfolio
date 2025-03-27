@@ -91,7 +91,7 @@ function Contact() {
       <div className="bg-black w-full justify-between flex flex-row items-center p-4 ">
         <img src={images.logoWhite} alt="" />
         <div>
-          <div className="text-2sm text-white md:text-2xl ">Synthtech</div>
+          <div className="text-2sm text-white md:text-2xl ">&copy 2025</div>
         </div>
       </div>
     </>
