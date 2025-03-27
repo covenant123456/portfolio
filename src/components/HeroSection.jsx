@@ -42,9 +42,6 @@ function HeroSection() {
                   {restWords.join(" ")}
                 </span>
               </div>
-              <div>
-                Based in <span className="font-bold text-black">Nigeria.</span>
-              </div>
             </div>
             <p className="text-black pt-4">
               I am a{" "}
